@@ -1,0 +1,559 @@
+<!DOCTYPE html>
+<html lang="">
+	<head>
+		<meta charset="UTF-8" />
+		<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+		<!-- <meta name="viewport" content="width=device-width, initial-scale=1.0" /> -->
+		<meta
+			name="viewport"
+			content="width=device-width, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0, user-scalable=no"
+		/>
+		<title>ty的练习网页</title>
+		<link
+			rel="shortcut icon"
+			href="../img1/moon-5942345.svg"
+			type="image/x-icon"
+		/>
+		<link rel="stylesheet" href="../css/CSS2.css" />
+		<!-- 在JavaScript中调用CSS表，实现调用两张CSS表根据设备选择样式 -->
+		<script src="../JavaScript/JavaScript练习.js"></script>
+	</head>
+	<body>
+		<div id="顶部介绍栏">
+			<h3>欢迎来到我的网页!</h3>
+
+			<div id="日期时间"></div>
+		</div>
+
+		<!-- 顶部搜索框 -->
+		<div class="csdn">
+			<!-- <form id="form验证" action="" method="get"> -->
+			<input
+				type="text"
+				id="搜索框输入"
+				placeholder="输入搜索内容"
+				onkeydown="onclick2(event)"
+			/>
+
+			<input type="button" id="搜索框输出" value="搜索" onclick="onclick1()" />
+			<!-- </form> -->
+		</div>
+		<!-- 顶部搜索框结束 -->
+
+		<!-- 侧边开始 -->
+		<div class="sidebars">
+			<ul>
+				<li><a class="home">导航栏</a></li>
+				<li><a href="#one">Web学习</a></li>
+				<li><a href="#two">学校常用</a></li>
+				<li><a href="#three">常用网址</a></li>
+				<li><a href="#four">杂七杂八</a></li>
+				<li><a href=""></a></li>
+				<!-- <li><a href="../img1/夏泓泷丑照.jpg">夏泓泷丑照</a></li> -->
+			</ul>
+		</div>
+		<!-- 侧边结束 -->
+
+		<!-- Web学习开始 -->
+		<div id="one">
+			<table class="table-size">
+				<thead>
+					<h1>Web开发学习</h1>
+				</thead>
+				<tr>
+					<td>
+						<a href="https://www.w3school.com.cn/tags/index.asp" target="_blank"
+							><p>HTML 学习</p></a
+						>
+					</td>
+					<td>
+						<a href="https://www.w3school.com.cn/css/index.asp" target="_blank"
+							><p>CSS 学习</p></a
+						>
+					</td>
+					<td>
+						<a href="https://www.w3school.com.cn/js/index.asp" target="_blank"
+							><p>JavaScript学习</p></a
+						>
+					</td>
+					<td>
+						<a
+							href="https://developer.mozilla.org/zh-CN/docs/Web"
+							target="_blank"
+							><p>Web开发学习</p></a
+						>
+					</td>
+				</tr>
+				<tr>
+					<td>
+						<a
+							href="https://www.runoob.com/html/html-quicklist.html"
+							target="_blank"
+							><p>HTML速查表</p></a
+						>
+					</td>
+					<td>
+						<a
+							href="https://www.runoob.com/cssref/css-reference.html"
+							target="_blank"
+							><p>CSS参考手册</p></a
+						>
+					</td>
+					<td>
+						<a href="https://www.runoob.com/js/js-examples.html" target="_blank"
+							><p>JavaScript应用实例</p></a
+						>
+					</td>
+					<td>
+						<a href="https://chinese.freecodecamp.org/learn" target="_blank"
+							><p>网页练习实战</p></a
+						>
+					</td>
+				</tr>
+				<tr>
+					<td>
+						<a
+							href="https://www.twle.cn/l/yufei/jquery/jquery-basic-index.html"
+							target="_blank"
+							><p>jQuery教程</p></a
+						>
+					</td>
+					<td>
+						<a
+							href="https://www.twle.cn/l/yufei/http/http-basic-index.html"
+							target="_blank"
+							><p>http协议</p></a
+						>
+					</td>
+					<td>
+						<a href="http://hemin.cn/jq/" target="_blank"
+							><p>jQuery速查表</p></a
+						>
+					</td>
+					<td>
+						<a href="https://xiaomark.com/" target="_blank"
+							><p>短链接生成</p></a
+						>
+					</td>
+				</tr>
+			</table>
+		</div>
+		<!-- web学习结束 -->
+
+		<!-- 学习常用部分开始 -->
+		<div id="two">
+			<h1>学校常用网址</h1>
+			<table>
+				<tr>
+					<td>
+						<a href="https://zjy2.icve.com.cn/portal/login.html" target="_blank"
+							><p>职教云网课平台</p></a
+						>
+					</td>
+					<td>
+						<a
+							href="../JavaScript/职教云刷课代码.js"
+							download="职教云刷课代码.js"
+							target="_blank"
+							><p>职教云刷课代码</p></a
+						>
+					</td>
+				</tr>
+				<tr>
+					<td>
+						<a href="https://www.zhihuishu.com/" target="_blank"
+							><p>知到智慧树官网</p></a
+						>
+					</td>
+					<td>
+						<a
+							href="http://passport2.chaoxing.com/login?fid=&newversion=true&refer=http://i.chaoxing.com"
+							target="_blank"
+							><p>学习通官网</p></a
+						>
+					</td>
+				</tr>
+				<tr>
+					<td>
+						<a href="https://www.mosoteach.cn/web/" target="_blank"
+							><p>云班课官网</p></a
+						>
+					</td>
+					<td>
+						<a
+							href="http://xmh-sptc-cn-3000-p.vpn.sptc.cn:8118/webapp/#/index"
+							target="_blank"
+							><p>学校官网</p></a
+						>
+					</td>
+				</tr>
+				<tr>
+					<td>
+						<a href="https://so.jszkk.com/" target="_blank"><p>搜题网站</p></a>
+					</td>
+					<td>
+						<a href="https://www.icourse163.org/" target="_blank"
+							><p>中国大学MOOC</p></a
+						>
+					</td>
+				</tr>
+			</table>
+		</div>
+		<!-- <br /> -->
+
+		<div id="three">
+			<h1>常用网址</h1>
+			<div class="layout">
+				<table>
+					<tr>
+						<td>
+							<a href="https://www.csdn.net/" target="_blank"
+								><img
+									src="../img1/csdn.png"
+									alt=""
+									width="35px"
+									height="35px"
+								/>
+								CSDN</a
+							>
+							<p>搜索电脑问题常用<br />最大的中文技术社区</p>
+						</td>
+						<td>
+							<a href="https://leetcode.cn/problemset/all/" target="_blank"
+								><img
+									src="../img1/leetcode.png"
+									alt=""
+									width="35px"
+									height="35px"
+								/>Leetcode</a
+							>
+							<p>算法刷题常用<br />程序员面试必刷题库</p>
+						</td>
+						<td>
+							<a href="https://github.com/" target="_blank"
+								><img
+									src="../img1/github.png"
+									alt=""
+									width="35px"
+									height="35px"
+								/>Github</a
+							>
+							<p>抄袭代码常用<br />最大的开源代码托管平台</p>
+						</td>
+					</tr>
+					<tr>
+						<td>
+							<a href="https://www.runoob.com/" target="_blank"
+								><img
+									src="../img1/菜鸟教程.ico"
+									alt=""
+									width="35px"
+									height="35px"
+								/>菜鸟教程</a
+							>
+							<p>程序编写基础学习<br />适合新手的编程学习网站</p>
+						</td>
+						<td>
+							<a href="https://www.twle.cn/" target="_blank"
+								><img
+									src="../img1/简单教程.png"
+									alt=""
+									width="35px"
+									height="35px"
+								/>简单教程</a
+							>
+							<p>简单教程,简单编程<br />页面简洁的学习网站</p>
+						</td>
+						<td>
+							<a href="https://www.wjx.cn/" target="_blank"
+								><img
+									src="../img1/问卷星.png"
+									alt=""
+									width="35px"
+									height="35px"
+								/>问卷星</a
+							>
+							<p>微信小程序<br />混迹于中国各个大学的问卷调查</p>
+						</td>
+					</tr>
+					<tr>
+						<td>
+							<a
+								href="https://bbs.tampermonkey.net.cn/forum.php"
+								target="_blank"
+								><img
+									src="../img1/油猴中文网.png"
+									alt=""
+									width="35px"
+									height="35px"
+								/>油猴中文网</a
+							>
+							<p>网课刷课脚本大全<br />用插件重新定义你的浏览器功能</p>
+						</td>
+						<td>
+							<a href="https://www.luogu.com.cn/" target="_blank"
+								><img
+									src="../img1/洛谷.png"
+									alt=""
+									width="35px"
+									height="35px"
+								/>洛谷</a
+							>
+							<p>算法刷题网站<br />题型较中等</p>
+						</td>
+						<td>
+							<a href="https://www.btnull.re/" target="_blank"
+								><img
+									src="../img1/BTNull.png"
+									alt=""
+									width="35px"
+									height="35px"
+								/>无名小站</a
+							>
+							<p>免费电影电视大全<br />各平台VIP电影观看</p>
+						</td>
+					</tr>
+				</table>
+			</div>
+		</div>
+
+		<!-- 第四部分开始 -->
+		<div id="four">
+			<h1>杂七杂八</h1>
+			<ul>
+				<li>
+					<a href="https://cli.im/" target="_blank"
+						><img
+							src="../img1/二维码.png"
+							alt=""
+							width="35px"
+							height="35px"
+						/>二维码制作</a
+					>
+				</li>
+				<li>
+					<a href="https://tool.lu/hexconvert/" target="_blank"
+						><img
+							src="../img1/进制转换.png"
+							alt=""
+							width="35px"
+							height="35px"
+						/>进制转换</a
+					>
+				</li>
+				<li>
+					<a href="https://tool.lu/coderunner/" target="_blank"
+						><img
+							src="../img1/代码运行.png"
+							alt=""
+							width="35px"
+							height="35px"
+						/>代码运行</a
+					>
+				</li>
+				<li>
+					<a href="https://www.uupoop.com/#/" target="_blank"
+						><img
+							src="../img1/zaixianPS.png"
+							alt=""
+							width="35px"
+							height="35px"
+						/>在线PS</a
+					>
+				</li>
+				<li>
+					<a href="https://pixabay.com/" target="_blank"
+						><img
+							src="../img1/pixabay.jpg"
+							alt=""
+							width="35px"
+							height="35px"
+						/>图库</a
+					>
+				</li>
+				<li>
+					<a href="https://bellwoods.xyz/" target="_blank"
+						><img
+							src="../img1/网页风筝.png"
+							alt=""
+							width="35px"
+							height="35px"
+						/>网页风筝</a
+					>
+				</li>
+				<li>
+					<a href="https://zoom.earth/" target="_blank"
+						><img
+							src="../img1/earth.ico"
+							alt=""
+							width="35px"
+							height="35px"
+						/>监控地球</a
+					>
+				</li>
+				<li>
+					<a href="https://www.autopiano.cn/" target="_blank"
+						><img
+							src="../img1/autopiano.ico"
+							alt=""
+							width="35px"
+							height="35px"
+						/>自由钢琴</a
+					>
+				</li>
+				<li>
+					<a href="https://strobe.cool/" target="_blank"
+						><img
+							src="../img1/strobe.ico"
+							alt=""
+							width="35px"
+							height="35px"
+						/>幻境</a
+					>
+				</li>
+				<li>
+					<a href="https://www.iloveimg.com/zh-cn" target="_blank"
+						><img
+							src="../img1/iloveimg.svg"
+							alt=""
+							width="35px"
+							height="35px"
+						/>图片在线编辑</a
+					>
+				</li>
+				<li>
+					<a href="https://www.ypppt.com/" target="_blank"
+						><img
+							src="../img1/PPT.svg"
+							alt=""
+							width="35px"
+							height="35px"
+						/>优品PPT模板</a
+					>
+				</li>
+				<li>
+					<a href="https://youquhome.com/" target="_blank"
+						><img
+							src="../img1/youqu.png"
+							alt=""
+							width="35px"
+							height="35px"
+						/>有趣网</a
+					>
+				</li>
+				<li>
+					<a href="https://myvoiceyourface.com/" target="_blank"
+						><img
+							src="../img1/视频换脸.png"
+							alt=""
+							width="35px"
+							height="35px"
+						/>视频换脸</a
+					>
+				</li>
+				<li>
+					<a
+						href="https://azure.microsoft.com/zh-cn/services/cognitive-services/text-to-speech/"
+						target="_blank"
+						><img
+							src="../img1/AI配音.png"
+							alt=""
+							width="35px"
+							height="35px"
+						/>AI配音</a
+					>
+				</li>
+				<li>
+					<a href="https://www.processon.com/" target="_blank"
+						><img
+							src="../img1/huitu.ico"
+							alt=""
+							width="35px"
+							height="35px"
+						/>思维流程图绘制</a
+					>
+				</li>
+				<li>
+					<a href="https://www.socpk.com/" target="_blank"
+						><img
+							src="../img1/socpk.jpg"
+							alt=""
+							width="35px"
+							height="35px"
+						/>芯片性能排行榜</a
+					>
+				</li>
+				<li>
+					<a href="http://tool.liumingye.cn/video/" target="_blank"
+						><img
+							src="../img1/V.ico"
+							alt=""
+							width="35px"
+							height="35px"
+						/>VIP视频解析</a
+					>
+				</li>
+				<li>
+					<a href="https://www.wdku.net/" target="_blank"
+						><img
+							src="../img1/wd.ico"
+							alt=""
+							width="35px"
+							height="35px"
+						/>超级转换工具</a
+					>
+				</li>
+				<li>
+					<a href="http://www.94i5.com/" target="_blank"
+						><img
+							src="../img1/94i5.png"
+							alt=""
+							width="35px"
+							height="35px"
+						/>94i5网站</a
+					>
+				</li>
+				<li>
+					<a href="http://www.gjw123.com/" target="_blank"
+						><img
+							src="../img1/工具123.png"
+							alt=""
+							width="55px"
+							height="35px"
+						/>工具123</a
+					>
+				</li>
+				<li>
+					<a href="https://rutracker.org/forum/index.php" target="_blank"
+						><img
+							src="../img1/logo-3.svg"
+							alt=""
+							width="50px"
+							height="35px"
+						/>rutracker.org</a
+					>
+				</li>
+				<li>
+					<a href="https://www.52pojie.cn/forum.php" target="_blank"
+						><img
+							src="../img1/吾爱破解.png"
+							alt=""
+							width="70px"
+							height="35px"
+						/>吾爱破解</a
+					>
+				</li>
+				<li>
+					<a href="https://www.doyoudo.com/" target="_blank"
+						><img
+							src="../img1/l0mgvydk0kiy.png"
+							alt=""
+							width="70px"
+							height="35px"
+						/>doyoudo官网</a
+					>
+				</li>
+			</ul>
+		</div>
+	</body>
+</html>

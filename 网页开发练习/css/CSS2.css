@@ -1,0 +1,11 @@
+* {
+	margin: 0;
+	padding: 0;
+	/* 内边距，外边距 */
+	/* background-image: url("../img1/背景.jpg"); */
+}
+body {
+	display: flex;
+	background-color: rgb(199, 214, 230);
+	display: block;
+}

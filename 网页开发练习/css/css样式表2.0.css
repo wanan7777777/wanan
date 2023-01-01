@@ -1,0 +1,308 @@
+* {
+  margin: 0;
+  padding: 0;
+  /* 内边距，外边距 */
+}
+
+body {
+  background-image: url("../img1/朝阳.jpg");
+  /* 背景图片 */
+  /* background-position: -20px -360px; */
+  background-repeat: no-repeat;
+  background-size: 100%;
+}
+
+#顶部介绍栏 {
+  display: inline-block;
+  font-size: 30px;
+  text-align: center;
+  /* 字体居中 */
+  width: 100%;
+  height: 85px;
+  background-color: rgb(54, 51, 51);
+  /* 背景颜色 */
+  color: rgb(248, 246, 246);
+  /* 字体颜色 */
+}
+
+/* 顶部搜索框样式 */
+.csdn {
+  /* display: block; */
+  margin: auto;
+  width: 50%;
+  /* border: 1px solid black; */
+  padding: 70px;
+}
+#搜索框输入 {
+  width: 536px;
+  height: 45px;
+  border: #050505 solid 1px;
+  float: left;
+  box-sizing: border-box;
+
+  font-size: 30px;
+  font-family: "宋体";
+  /* 设置输入的字体样式 */
+}
+#搜索框输出 {
+  width: 150px;
+  height: 45px;
+  line-height: 40px;
+  float: left;
+  background-color: rgb(247, 243, 243);
+  font-size: 18px;
+  font-family: "微软雅黑";
+}
+input::-webkit-input-placeholder {
+  font-size: 30px;
+  font-family: "宋体";
+  text-align: center;
+  /* 设置placeholder属性的样式 */
+}
+
+/* 侧边栏样式 */
+
+.sidebars {
+  width: 200px;
+  height: 80%;
+  background-color: rgb(197, 199, 201);
+  display: inline-block;
+  /* 设置为块元素 */
+  position: relative;
+  /* 设置为动态 */
+  margin-left: 60px;
+}
+.sidebars a {
+  text-decoration: none;
+  /* 去掉下划线 */
+  font-size: 32px;
+  /* 字体大小 */
+  font-family: "宋体";
+  color: rgb(12, 12, 12);
+  /* 字体颜色 */
+  text-align: center;
+}
+.sidebars ul {
+  list-style-type: none;
+  /* 去掉列表前面的点 */
+  margin: 0;
+  padding: 0;
+  width: 200px;
+  background-color: rgb(184, 180, 180);
+  /* 列表背景色 */
+  height: 60%;
+  position: fixed;
+  /* 固定侧边栏 */
+  /* overflow: auto; */
+  /* 对侧边栏使用滚动条 */
+}
+
+.sidebars a {
+  display: block;
+  /* color: rgb(241, 237, 237); */
+  padding: 8px 16px;
+  text-decoration: none;
+}
+
+.sidebars li a.home {
+  background-color: #3a3b3b;
+  color: white;
+  font-size: 36px;
+  letter-spacing: 15px;
+}
+
+.sidebars li a:hover:not(.home) {
+  background-color: #555;
+  color: white;
+}
+
+/* 侧边栏结束 */
+
+#one h1 {
+  color: rgb(247, 242, 242);
+  text-align: center;
+  /* 字体居中对齐 */
+  text-shadow: 3px 3px 4px #000;
+  /* font-size: 36px; */
+}
+/* web开发开始 */
+
+#one {
+  /* display: inline-block; */
+  position: relative;
+  margin-left: 25%;
+  width: 47%;
+  height: 400px;
+  /* background-color: #555; */
+  /* border: 2px solid rgb(252, 252, 252); */
+  font-size: 24px;
+  font-family: "宋体";
+  border-collapse: collapse;
+}
+
+#one table td {
+  border: 2px solid rgb(252, 252, 252);
+  text-align: center;
+  height: 100px;
+}
+
+#one p {
+  color: #000;
+  /* background-color: aliceblue; */
+  background-color: rgba(255, 255, 255, 0.8);
+  font-size: 26px;
+  height: 45px;
+}
+
+.table-size {
+  border-collapse: collapse;
+  width: 900px;
+  height: 150px;
+}
+
+#one p:hover:not(.home) {
+  background-color: rgba(243, 240, 240, 0.4);
+  color: aliceblue;
+}
+/* 鼠标置于链接上时改变样式 */
+
+/* 学习常用网址样式开始 */
+#two {
+  display: inline-block;
+  /* 转换块级元素 */
+  /* background-color: rgb(199, 193, 193); */
+  border: 2px solid rgb(252, 252, 252);
+  position: relative;
+  /* margin-top: 100px; */
+  margin-left: 480px;
+  width: 450px;
+  height: 490px;
+}
+#two table {
+  margin: auto;
+}
+
+#two h1 {
+  color: rgb(247, 242, 242);
+  text-align: center;
+  /* 字体居中对齐 */
+  text-shadow: 3px 3px 4px #000;
+  font-size: 40px;
+  font-family: "宋体";
+}
+
+#two table tr td {
+  border: 2px solid rgb(252, 252, 252);
+  text-align: center;
+  height: 100px;
+}
+
+#two p {
+  color: #000;
+  /* background-color: aliceblue; */
+  background-color: rgba(255, 255, 255, 0.8);
+  font-size: 26px;
+  height: 45px;
+}
+
+#two p:hover:not(.home) {
+  background-color: rgba(243, 240, 240, 0.4);
+  color: aliceblue;
+}
+
+/* 学习常用网址结束 */
+/* 常用网址开始 */
+#three {
+  display: inline-block;
+  /* 转换块级元素 */
+  /* background-color: rgb(199, 193, 193); */
+  border: 2px solid rgb(252, 252, 252);
+  position: relative;
+  margin-top: 60px;
+  margin-left: 480px;
+  width: 900px;
+  height: 600px;
+}
+#three h1 {
+  color: rgb(247, 242, 242);
+  text-align: center;
+  /* 字体居中对齐 */
+  text-shadow: 3px 3px 4px #000;
+  font-size: 40px;
+  font-family: "宋体";
+}
+#three table tr td {
+  border: 2px solid rgb(252, 252, 252);
+  text-align: center;
+  width: 300px;
+  height: 150px;
+}
+#three a {
+  font-size: 34px;
+  font-size: "宋体";
+  color: rgb(19, 18, 18);
+  background-color: aliceblue;
+  display: block;
+  /* color: rgb(241, 237, 237); */
+  padding: 8px 16px;
+  text-decoration: none;
+}
+#three a:hover:not(.home) {
+  background-color: rgba(243, 240, 240, 0.1);
+  color: aliceblue;
+}
+#three p {
+  margin-top: 1px;
+  font-size: 19px;
+  font-family: "宋体";
+  background-color: aliceblue;
+}
+
+#four {
+  display: inline-block;
+  /* 转换块级元素 */
+  /* background-color: rgb(197, 199, 201); */
+  background-color: rgb(250, 196, 196);
+  /* border: 2px solid rgb(252, 252, 252); */
+  position: absolute;
+  margin-top: -44%;
+  margin-left: 5%;
+  width: 260px;
+  height: 1360px;
+}
+#four h1 {
+  display: block;
+  background-color: rgb(70, 69, 69);
+  color: rgb(247, 242, 242);
+  text-align: center;
+  /* 字体居中对齐 */
+  text-shadow: 3px 3px 4px #000;
+  font-size: 40px;
+  font-family: "宋体";
+}
+#four ul {
+  list-style-type: none;
+}
+#four a {
+  text-decoration: none;
+  /* 去掉下划线 */
+  font-size: 25px;
+  /* 字体大小 */
+  font-family: "宋体";
+  color: rgb(12, 12, 12);
+  /* 字体颜色 */
+  /* text-align: center; */
+  display: block;
+  /* color: rgb(241, 237, 237); */
+  padding: 8px 16px;
+}
+#four a.home {
+  background-color: #3a3b3b;
+  color: white;
+  font-size: 36px;
+}
+
+#four a:hover:not(.home) {
+  background-color: #555;
+  color: white;
+}
